@@ -77,8 +77,12 @@ else:
 if start.startswith('FILE:'):
     with open(start[5:], 'r', encoding='utf-8') as f:
         start = f.read()
+print("====>>>====: start: ", start)
 start_ids = encode(start)
+print("====>>>====: start_ids: ", start_ids)
 x = (torch.tensor(start_ids, dtype=torch.long, device=device)[None, ...])
+print("====>>>====: x: ", x)
+print("====>>>====: Start the generation!!! ====")
 
 # run generation
 with torch.no_grad():
@@ -86,4 +90,4 @@ with torch.no_grad():
         for k in range(num_samples):
             y = model.generate(x, max_new_tokens, temperature=temperature, top_k=top_k)
             print(decode(y[0].tolist()))
-            print('---------------')
+            print(f'----- Sample <{k}> Finished! ----------')

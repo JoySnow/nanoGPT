@@ -1,0 +1,349 @@
+(nanogpt) joy@joys-MacBook-Pro: ~/Git/nanogpt master ⚡ $ python sample.py --out_dir=out-shakespeare-char --device=mps     [16:05:33]
+Overriding: out_dir = out-shakespeare-char
+Overriding: device = mps
+number of parameters: 10.65M
+Loading meta from data/shakespeare_char/meta.pkl...
+
+Thou and not out such false of this kinsman,
+Having to my father's wife with words,
+Commanding them and shall wash the table
+Of their ruin and hands seen their places.
+
+Second Servingman:
+The service of Escalish the victors and success
+As this shall almost make the aim of the gates;
+And with the prince of her sweet sorrow shall come a with her.
+
+Second Servingman:
+I have not done the Antigonus' hand,
+And yet here we all your servants your lordship of their
+master and proceedy them. What
+are you
+---------------
+
+Thy soldiers are already.
+
+POLIXENES:
+Sirrah, the part, that need I guess to my chamber
+And stock his flighterness doth her stealth.
+
+PAULINA:
+How now!
+
+ISABELLA:
+How! who, come to make me such a poor stock-crown:
+Are you so that are in this same absolution,
+Who plotted you are not a visit for your mother
+Be than in your behalf married in his country.
+
+ANGELO:
+Ay, then, that he was to fight.
+
+Clown:
+Ay, but, how not I say that there: make her say you.
+
+ISABELLA:
+I have not as you a brand shrift
+---------------
+
+Their high and some dead as we are breathed.
+
+ROMEO:
+I am truly so late; and thou lovest me for any house.
+
+MERCUTIO:
+Then, therefore it is my grace.
+
+BENVOLIO:
+Ay, to this innocent worf, if I should turn and
+most dately be secured, were gently.
+
+BENVOLIO:
+A lord, stead, and further,
+At downright and still me.
+
+MERCUTIO:
+I will do pity you, sir, sir, my sir,
+And man advise your honour.
+
+MERCUTIO:
+I am going to my hand:
+Why should you speak not die? so, you will I come.
+
+BENVOLIO:
+Ay, and the cau
+---------------
+
+Farewell: hence, Henry, here comes! Most Grey,
+Such death or monumentable lady: I am
+A deep proud I might. You are not person'd of your honour
+Does not see your honour.
+
+MARIANA:
+Is this your true?
+
+DUKE VINCENTIO:
+There is your honour's honour's noble banishment,
+And the shoe-world that are straight intendeed
+By your love, of mine eyes for his grief.
+
+LUCIO:
+It is not in a clock, but or woman.
+What their gentleman taves against the provost,
+And have stroke set the high o' their sected mouth,
+An
+---------------
+
+
+AUFIDIUS:
+A thousand man the prey of them, I am gone, sir, in
+craveked to the voices, and threateness.
+
+CORIOLANUS:
+Pray you, sir, you have made me gone.
+
+CORIOLANUS:
+Vouchsafe!
+
+CORIOLANUS:
+I am deserved to the news again o' the people.
+
+First Musician:
+For I love to see your good friends, persuadicing
+the songs of your friends.
+
+CORIOLANUS:
+Unless your friend, but here it shall be placed to the place,
+Who hollow and to be sure, and with your sheets.
+
+First Citizen:
+You must not alive me.
+
+MEN
+---------------
+
+Your father is, good friend, to the Duke of York,
+Sir Walesby the seats that which but a houser silver
+A prince true here; which thou hast on me
+To thee a stare of mine honour. What's here, how?
+
+CAMILLO:
+I have so been so rrived: here it beguns,
+For I had no less wing it in the heart;
+And which is a door god strength, let the friends, as his prayers
+Discressed so further in the violent wales.
+
+DUKE VINCENTIO:
+No more, but thing-shame, have I found him to hold.
+
+ANGELO:
+Why, how with a business
+---------------
+
+Now, not be request. Have you not quickly who doth do it say?
+
+MONTAGUE:
+As I am, to bless your wrongs, your lamb, but good hither.
+
+KING RICHARD III:
+Why, so I shall have seen yourself true downright.
+
+DUCHESS OF YORK:
+
+HASTINGS:
+Then here is this a mistress not a king.
+
+DUCHESS OF YORK:
+Have I done to her honour.
+
+DUCHESS OF YORK:
+But prepared here, through me not not as a shering.
+
+DUCHESS OF YORK:
+Good ragozen, world men, or strange in my deed.
+
+DUCHESS OF YORK:
+See heavens! when here will y
+---------------
+
+Now, for the world's neck; but I must call thee with
+But babes: then thou petting thee, comming,
+I know not her of blow-true man.
+
+CAPULET:
+Why, thou wilt do thee should play the news
+To thee as the piteous end; thou wouldst not find
+The fury garned of our spottening:
+The one of the honour of the prince the ear
+Of three hoaring.
+
+FRIAR LAURENCE:
+Dost thou not promised,
+So die, and thou shalt fly his undruth an exile choler?
+
+FRIAR LAURENCE:
+I have forgot downright.
+
+FRIAR LAURENCE:
+No, madam.
+
+R
+---------------
+
+Ah, in the sun young whereof, you're you all,
+And not instant, not remember yourself:
+Good friend, good my lord, I told you,
+For himself made me how he not have standed
+Where you are not.
+
+LEONTES:
+There's a business,
+As come to your party, as for his fortune as an ill,
+To Capulet; send your controvert in the hole
+Whereon you will feel your command: speak this witness
+To be but a fool of his crown, we so continue
+To him in their rights of their purposes in
+Their royal shrubble law, and of this s
+---------------
+
+No more fortunate, and holds him to the princes of the prince of the
+petticoner of his soldiers; I warrant him to
+him. As this now, that would a piece of Rome, sir,
+on him in the colouring peace, and his son
+look on his foreul, his honour fancy and his well-house
+ten him from the virgin of his nature eyes
+and wail his near like shook to one so else
+what would have been heaven you hour to good. You have made a day; a dog him, that
+say your highness for me; it is all in me to this stock of the
+dau
+---------------
+(nanogpt) joy@joys-MacBook-Pro: ~/Git/nanogpt master ⚡ $ python sample.py --out_dir=out-shakespeare-char --device=mps --num_samples=2
+Overriding: out_dir = out-shakespeare-char
+Overriding: device = mps
+Overriding: num_samples = 2
+number of parameters: 10.65M
+Loading meta from data/shakespeare_char/meta.pkl...
+====>>>====: x:  tensor([[0]], device='mps:0')
+
+Thou and not out such false of this kinsman,
+Having to my father's wife with words,
+Commanding them and shall wash the table
+Of their ruin and hands seen their places.
+
+Second Servingman:
+The service of Escalish the victors and success
+As this shall almost make the aim of the gates;
+And with the prince of her sweet sorrow shall come a with her.
+
+Second Servingman:
+I have not done the Antigonus' hand,
+And yet here we all your servants your lordship of their
+master and proceedy them. What
+are you
+---------------
+
+Thy soldiers are already.
+
+POLIXENES:
+Sirrah, the part, that need I guess to my chamber
+And stock his flighterness doth her stealth.
+
+PAULINA:
+How now!
+
+ISABELLA:
+How! who, come to make me such a poor stock-crown:
+Are you so that are in this same absolution,
+Who plotted you are not a visit for your mother
+Be than in your behalf married in his country.
+
+ANGELO:
+Ay, then, that he was to fight.
+
+Clown:
+Ay, but, how not I say that there: make her say you.
+
+ISABELLA:
+I have not as you a brand shrift
+---------------
+(nanogpt) joy@joys-MacBook-Pro: ~/Git/nanogpt master ⚡ $                                                                  [17:49:24]
+(nanogpt) joy@joys-MacBook-Pro: ~/Git/nanogpt master ⚡ $ python sample.py --out_dir=out-shakespeare-char --device=mps --num_samples=5 --max_new_tokens=200 --start="What fit is this, good lady?"
+Overriding: out_dir = out-shakespeare-char
+Overriding: device = mps
+Overriding: num_samples = 5
+Overriding: max_new_tokens = 200
+Overriding: start = What fit is this, good lady?
+number of parameters: 10.65M
+Loading meta from data/shakespeare_char/meta.pkl...
+====>>>====: start:  What fit is this, good lady?
+====>>>====: start_ids:  [35, 46, 39, 58, 1, 44, 47, 58, 1, 47, 57, 1, 58, 46, 47, 57, 6, 1, 45, 53, 53, 42, 1, 50, 39, 42, 63, 12]
+====>>>====: x:  tensor([[35, 46, 39, 58,  1, 44, 47, 58,  1, 47, 57,  1, 58, 46, 47, 57,  6,  1,
+         45, 53, 53, 42,  1, 50, 39, 42, 63, 12]], device='mps:0')
+====>>>====: Start the generation!!! ====
+What fit is this, good lady?
+
+GLOUCESTER:
+Yes, my lord, my lord, I'll have seen you no more stay,
+My bear some flowers; and hereafter sleep
+To see your poor mother's banish'd brow.
+
+CLARENCE:
+I fare the ready of my soul,
+And dro
+----- sample <0> ----------
+What fit is this, good lady?
+
+PERDITA:
+Nay, good friend,
+Let's mark your labour.
+
+CLAUDIO:
+The stocks the courtesy sea
+The shadow of the bosom.
+
+LUCIO:
+I would be a while you so all done:
+Be strong to cut off that a shepherd's s
+----- sample <1> ----------
+What fit is this, good lady?
+
+GLOUCESTER:
+
+CLARENCE:
+Not so, but no matter.
+
+GLOUCESTER:
+Nor I pray thee, my lord.
+
+GLOUCESTER:
+Thy lord, that Warwick shall be nothing.
+
+CLIFFORD:
+Thou didst forced the traitor's hand:
+How our dr
+----- sample <2> ----------
+What fit is this, good lady?
+Hast thou not done! thou wilt relent here,
+Thy lord, present from sheer play thy shapes suit.
+
+HENRY BOLINGBROKE:
+What?
+
+TYBALT:
+Three deadly store and a prince: plainly stay by the churchyard,
+To mo
+----- sample <3> ----------
+What fit is this, good lady?
+
+First Servant:
+How doth not my heart but so?
+
+Second Servingman:
+Hence, ho! what is this so things
+the heavens of honour?
+
+Second Servingman:
+He hath none he made not him so he's grave.
+
+First Servi
+----- sample <4> ----------
