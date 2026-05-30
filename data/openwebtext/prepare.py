@@ -20,8 +20,12 @@ enc = tiktoken.get_encoding("gpt2")
 
 if __name__ == '__main__':
     # takes 54GB in huggingface .cache dir, about 8M documents (8,013,769)
-    dataset = load_dataset("openwebtext", num_proc=num_proc_load_dataset)
-
+    # dataset = load_dataset("openwebtext", num_proc=num_proc_load_dataset)
+    dataset = load_dataset(
+        "Skylion007/openwebtext",
+        num_proc=num_proc_load_dataset,
+        # trust_remote_code=True
+    )
     # owt by default only contains the 'train' split, so create a test split
     split_dataset = dataset["train"].train_test_split(test_size=0.0005, seed=2357, shuffle=True)
     split_dataset['val'] = split_dataset.pop('test') # rename the test split to val
@@ -79,3 +83,26 @@ if __name__ == '__main__':
 
     # to read the bin files later, e.g. with numpy:
     # m = np.memmap('train.bin', dtype=np.uint16, mode='r')
+
+"""
+on hf reset error:
+$ export HF_ENDPOINT=https://hf-mirror.com
+
+$ python data/openwebtext/prepare.py
+...
+train-00069-of-00080.parquet: 100%|██████████████████████████████████████████████████████████████| 301M/301M [00:14<00:00, 21.5MB/s]
+train-00019-of-00080.parquet: 100%|██████████████████████████████████████████████████████████████| 301M/301M [00:27<00:00, 10.9MB/s]
+Generating train split: 100%|██████████████████████████████████████████████████| 8013769/8013769 [00:12<00:00, 666308.71 examples/s]
+Loading dataset shards: 100%|███████████████████████████████████████████████████████████████████████| 80/80 [00:06<00:00, 13.01it/s]
+tokenizing the splits (num_proc=8): 100%|███████████████████████████████████████| 8009762/8009762 [08:45<00:00, 15253.43 examples/s]
+tokenizing the splits (num_proc=8): 100%|███████████████████████████████████████████████| 4007/4007 [00:21<00:00, 182.67 examples/s]
+writing /Users/joy/Git/nanogpt/data/openwebtext/train.bin: 100%|████████████████████████████████| 1024/1024 [15:40<00:00,  1.09it/s]
+writing /Users/joy/Git/nanogpt/data/openwebtext/val.bin: 100%|█████████████████████████████████| 1024/1024 [00:01<00:00, 866.20it/s]
+
+$ ll data/openwebtext
+total 35312592
+-rw-r--r--@ 1 joy  staff   3.2K May 30 17:12 prepare.py
+-rw-r--r--  1 joy  staff   489B May 18 20:24 readme.md
+-rw-r--r--  1 joy  staff    17G May 30 17:47 train.bin
+-rw-r--r--  1 joy  staff   8.5M May 30 17:47 val.bin
+"""
