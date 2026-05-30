@@ -2,7 +2,7 @@
 
 
 
-## basic
+## Basic Concepts
 
 ### Dropout (随机失活)
 
@@ -25,6 +25,29 @@
 它的含义：在每次更新参数时，系统会强行把所有权重参数自身的值乘以一个小于 1 的数字（比如 $0.99$），让它们在数值上产生一点点“缩水”。它不会把任何参数屏蔽成 0，它只是让大家集体变小。
 
 为什么需要它？ 神经网络很容易产生“惰性”，如果某个特征（比如单词 "the"）经常出现，对应的神经元权重就会变得极其巨大，最终模型变成了一个只会根据单一特征做决定的“偏科生”。
+
+### Model = Pre-training + SFT + RLHF
+
+the Pre-training takes 99% on Data and calculation, the data goes wild.
+the SFT and RLHF takes 1% , but the Data is extra "expensive".
+
+#### 指令微调 (SFT - Supervised Fine-Tuning)
+用结构话数据做：
+```
+{
+    "instruction": "你是一个资深的 DBA。请根据用户的需求输出 PostgreSQL 语句。不要解释，只输出代码。",
+    "input": "查询 users 表里昨天注册的活跃用户。",
+    "output": "SELECT * FROM users WHERE status = 'active' AND created_at >= CURRENT_DATE - INTERVAL '1 day';"
+},
+```
+
+#### 人类反馈强化学习 (RLHF - Reinforcement Learning from Human Feedback)
+
+eg. OpenAI 会让 SFT 后的模型对同一个问题生成 4 个不同的答案。
+然后让人类标注员对这 4 个答案进行“点赞/踩”的排序。
+系统用这些排序数据训练出一个“裁判模型”。
+最后，主模型在不断自我生成的过程中，裁判模型会实时给它打分，通过强化学习（PPO 算法）逼迫主模型越来越符合人类的胃口。
+
 
 ## my notes
 
